@@ -1,8 +1,8 @@
-# Introduction
+## Introduction
 
 The Video Splitter application is a tool designed to help users easily split a video file into multiple smaller sections, based on the user's specified criteria. This application is built using the PyQt5 framework and utilizes the moviepy library to handle the actual video splitting process.
 
-# Features
+## Features
 The Video Splitter application offers the following features:
 
 * Input Video File Selection: Users can select a video file to be split from their local file system.
@@ -12,7 +12,7 @@ The Video Splitter application offers the following features:
 * Process Video: Users can initiate the video splitting process by clicking the "Process Video" button. The application will split the video based on the specified sections and save the split sections to the specified output folder.
 * Progress Bar: The application features a progress bar that shows the progress of the video splitting process.
 
-# Usage
+## Usage
 To use the Video Splitter application, follow these steps:
 
 1. Launch the application by running the provided Python script.
@@ -22,7 +22,7 @@ To use the Video Splitter application, follow these steps:
 5. Specify the folder where the split video sections should be saved by clicking the "Browse" button next to the "Output Folder" label and selecting the desired folder.
 6. Click the "Process Video" button to initiate the video splitting process. The progress bar will update to show the progress of the process.
 
-##Requirements
+## Requirements
 The Video Splitter application requires the following software and libraries to be installed:
 
 Python 3.7 or higher
@@ -35,5 +35,5 @@ Copy code
 pip install -r requirements.txt
 ```
 
-##Conclusion
+## Conclusion
 The Video Splitter application provides a simple and intuitive interface for splitting video files into smaller sections. It offers a range of features that make it easy to use and highly functional. With its robust framework and powerful libraries, the Video Splitter application is a valuable tool for anyone who needs to split video files on a regular basis.
