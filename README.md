@@ -35,5 +35,12 @@ Copy code
 pip install -r requirements.txt
 ```
 
-## Conclusion
-The Video Splitter application provides a simple and intuitive interface for splitting video files into smaller sections. It offers a range of features that make it easy to use and highly functional. With its robust framework and powerful libraries, the Video Splitter application is a valuable tool for anyone who needs to split video files on a regular basis.
+## Limitations
+* The application only supports video files in the following formats: MP4, AVI, MKV, MOV.
+T* he application is not designed to handle large video files or a large number of sections. It may take some time to process and split the video depending on the size and complexity of the input file.
+
+
+## License
+This application is licensed under the MIT License. See the LICENSE file for more information.
+
+
