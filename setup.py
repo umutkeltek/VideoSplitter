@@ -1,20 +1,11 @@
-from cx_Freeze import setup, Executable
-import sys
+from setuptools import setup
 
-base = None
-if sys.platform == "win32":
-    base = "Win32GUI"
+APP = ['video_splitter.py']
+OPTIONS = {'argv_emulation': True,}
 
-build_exe_options = {
-    'packages': ['PyQt5', 'moviepy'],
-    'excludes': ['tkinter'],
-    'optimize': 2
-}
 
 setup(
-    name='VideoSplitter',
-    version='0.1',
-    description='Video Splitter Application',
-    options={'build_exe': build_exe_options},
-    executables=[Executable('video_splitter.py', base=base)]
+    app = APP,
+    options={"py2app": OPTIONS},
+    setup_requires=["py2app"]
 )
