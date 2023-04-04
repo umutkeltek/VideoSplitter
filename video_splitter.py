@@ -156,7 +156,9 @@ class VideoSplitterWindow(QMainWindow):
         split_video(input_video, output_folder, sections)
 
         for index, section in enumerate(sections):
-            self.progress_bar.setValue((index + 1) * 100 / total_sections)
+            self.progress_bar.setValue(int((index + 1) * 100 / total_sections))
+
+
 
     def time_str_to_seconds(self, time_str):
         time_parts = list(map(int, time_str.split(':')))
@@ -188,4 +190,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
